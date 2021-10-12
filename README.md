@@ -1,24 +1,19 @@
 # forecastingLTVmodel
 
-Data discription
-
-Abstract: A real online retail transaction data set of two years.
-
 Data Set Information:
-This Online Retail II data set contains all the transactions occurring for a UK-based and registered, non-store online retail between 01/12/2009 and 09/12/2011.The company mainly sells unique all-occasion gift-ware. Many customers of the company are wholesalers.
+
+This is a transnational data set which contains all the transactions occurring between 01/12/2010 and 09/12/2011 for a UK-based and registered non-store online retail.The company mainly sells unique all-occasion gifts. Many customers of the company are wholesalers.
+
 
 Attribute Information:
-InvoiceNo: Invoice number. Nominal. A 6-digit integral number uniquely assigned to each transaction. If this code starts with the letter 'c', it indicates a cancellation.
-StockCode: Product (item) code. Nominal. A 5-digit integral number uniquely assigned to each distinct product.
+
+InvoiceNo: Invoice number. Nominal, a 6-digit integral number uniquely assigned to each transaction. If this code starts with letter 'c', it indicates a cancellation.
+StockCode: Product (item) code. Nominal, a 5-digit integral number uniquely assigned to each distinct product.
 Description: Product (item) name. Nominal.
 Quantity: The quantities of each product (item) per transaction. Numeric.
-InvoiceDate: Invice date and time. Numeric. The day and time when a transaction was generated.
-UnitPrice: Unit price. Numeric. Product price per unit in sterling (Â£).
-CustomerID: Customer number. Nominal. A 5-digit integral number uniquely assigned to each customer.
-Country: Country name. Nominal. The name of the country where a customer resides.
+InvoiceDate: Invice Date and time. Numeric, the day and time when each transaction was generated.
+UnitPrice: Unit price. Numeric, Product price per unit in sterling.
+CustomerID: Customer number. Nominal, a 5-digit integral number uniquely assigned to each customer.
+Country: Country name. Nominal, the name of the country where each customer resides.
 
-Source:
-Dr. Daqing Chen, Course Director: MSc Data Science. chend '@' lsbu.ac.uk, School of Engineering, London South Bank University, London SE1 0AA, UK.
-
-Please find more information refer the below link,
-https://archive.ics.uci.edu/ml/datasets/Online+Retail+II
+Downloaded: https://archive.ics.uci.edu/ml/datasets/online+retail#
