@@ -1,4 +1,4 @@
-# forecastingLTVmodel
+# forecasting LTV model using Lifetimes package (https://lifetimes.readthedocs.io/en/latest/index.html)
 
 Data Set Information:
 
